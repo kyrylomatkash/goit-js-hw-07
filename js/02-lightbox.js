@@ -18,8 +18,8 @@ let lightbox = new SimpleLightbox('.gallery a', {
     close: true,
     closeText: '×',
     nav: true,
-  navText: ['←', '→'],
-  download: 'Click to download button',
+    navText: ['←', '→'],
+    download: 'Click to download button',
   });
 console.log(galleryItems);
 
